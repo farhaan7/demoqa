@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="TestCases.AlertsFramesWindows">
+        <methods>
+          <include name="alertaction"/>
+          <include name="teardown"/>
+          <include name="frameHandle"/>
+          <include name="modalDialogTest"/>
+          <include name="extent"/>
+          <include name="flush"/>
+          <include name="nestedFrameTest"/>
+          <include name="windowHandle"/>
+        </methods>
+      </class> <!-- TestCases.AlertsFramesWindows -->
+      <class name="TestCases.FormTest">
+        <methods>
+          <include name="setup"/>
+          <include name="flush"/>
+          <include name="calendar" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.FormTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
